@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Take &lt;blink&gt; Back!</title>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700">
+	<style>
+		html {
+			display: flex;
+			height: 100%;
+			}
+		body {
+			margin: auto;
+			background: #FFFDEF;
+			color: #000;
+			text-align: center;
+			font-family: Ubuntu Mono, monospace;
+			}
+		h1 {
+			margin: 3vw 0 0;
+			font-size: 20vw;
+			}
+		p {
+			font-size: 2.7vw;
+			}
+		blink {
+			opacity: 1;
+			-webkit-animation: blink 1.5s steps(1) infinite;
+			-ms-animation: blink 1.5s steps(1) infinite;
+			animation: blink 1.5s steps(1) infinite;
+			}
+		@-webkit-keyframes blink {
+			50% { opacity: 0 }
+			}
+		@-ms-keyframes blink {
+			50% { opacity: 0 }
+			}
+		@keyframes blink {
+			50% { opacity: 0 }
+			}
+	</style>
+</head>
+<body>
+	<!--  -->
+
+	<h1>
+		<blink>&lt;blink&gt;</blink>
+	</h1>
+	<p>Blinking for Chrome, Opera, Safari, Firefox and IE</p>
+
+	<script>(function(b,c,a){(c[a]=c[a]||[]).push(function(){try{c.yaCounter20867326=new Ya.Metrika({id:20867326})}catch(a){}});var e=b.getElementsByTagName('script')[0],d=b.createElement('script'),a=function(){e.parentNode.insertBefore(d,e)};d.async=!0;d.src='//mc.yandex.ru/metrika/watch.js';'[object Opera]'==c.opera?b.addEventListener('DOMContentLoaded',a):a()})(document,window,'yandex_metrika_callbacks');</script><noscript><img src="//mc.yandex.ru/watch/20867326" alt=""></noscript>
+</body>
+</html>
