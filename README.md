@@ -9,3 +9,6 @@
 		}
 
 `<blink>` brought you back by [Vadim Makeev](https://github.com/pepelsbey).
+
+---
+Licensed under [MIT License](LICENSE.md).
