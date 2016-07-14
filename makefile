@@ -1,4 +1,4 @@
 publish:
 	@echo 'Uploading files…'
-	@rsync -az .htaccess index.html pepelsbey@pepelsbey.net:takeblinkback.com/
+	@rsync -az images .webmanifest favicon.ico index.html pepelsbey@pepelsbey.net:takeblinkback.com/
 	@echo 'Done.'
