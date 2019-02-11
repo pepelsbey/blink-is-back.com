@@ -1,58 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Take &lt;blink&gt; Back!</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="manifest" href="/.webmanifest">
-	<link rel="apple-touch-icon" type="image/png" href="/images/icon-228x228.png">
+	<title>Take &lt;blink&gt; Back!</title>
+	<link rel="manifest" href=".webmanifest">
+	<link rel="apple-touch-icon" type="image/png" href="images/icon-228x228.png">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700&amp;text=%2C%3C%3EabBCdeEfFghiIklmnoOprSx">
 	<style>
 		html {
 			display: flex;
 			height: 100%;
-			}
+		}
+
 		body {
 			margin: auto;
 			background: #FFFDEF;
 			color: #000;
 			text-align: center;
 			font-family: Ubuntu Mono, monospace;
-			}
+		}
+
 		h1 {
 			margin: 3vw 0 0;
 			font-size: 20vw;
-			}
+		}
+
 		p {
 			font-size: 2.7vw;
-			}
+		}
+
 		blink {
 			opacity: 1;
 			-webkit-animation: blink 1.5s steps(1) infinite;
 			-ms-animation: blink 1.5s steps(1) infinite;
 			animation: blink 1.5s steps(1) infinite;
-			}
+		}
+
 		@-webkit-keyframes blink {
 			50% { opacity: 0 }
-			}
+		}
+
 		@-ms-keyframes blink {
 			50% { opacity: 0 }
-			}
+		}
+
 		@keyframes blink {
 			50% { opacity: 0 }
-			}
+		}
 	</style>
 </head>
 <body>
-	<!--
-		<blink> brought you back by Vadim Makeev,
-		github.com/pepelsbey/takeblinkback.com
-	-->
-
 	<h1>
 		<blink>&lt;blink&gt;</blink>
 	</h1>
 	<p>Blinking for Chrome, Opera, Safari, Firefox and IE</p>
 
+	<!--
+		Author: Vadim Makeev
+		Twitter: https://twitter.com/@pepelsbey_
+		Code: https://github.com/pepelsbey/takeblinkback.com
+	-->
 </body>
 </html>
