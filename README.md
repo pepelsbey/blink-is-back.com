@@ -1,4 +1,4 @@
-# Take `<blink>` Back!
+# `<blink>` is Back!
 
 	blink {
 		opacity: 1;
